@@ -2,7 +2,6 @@
 border: 0;
 margin:0;
 }
-
 @font-face {
     font-family: 'soriasoria';
     src: url('soria-font-webfont.eot');
@@ -50,3 +49,34 @@ p {
         color: #ead1ff88;
 
     }
+
+p.large {
+    font-size: 12vh;
+}
+
+@media (min-width: 421px) and (max-width: 1000px) {
+h1 {
+    font-size: 6vh;
+}
+
+p {
+    font-size: 3vh;
+}
+
+p.large {
+    font-size: 6vh;
+}
+}
+
+@media (max-width: 420px) {
+h1 {
+    font-size: 3vh;
+}
+
+p {
+    font-size: 1.5vh;
+}
+p.large {
+    font-size: 3vh;
+}   
+}
