@@ -11,7 +11,7 @@ margin:0;
          url('soria-font-webfont.woff') format('woff'),
          url('soria-font-webfont.ttf') format('truetype'),
          url('soria-font-webfont.svg#soriasoria') format('svg');
-    font-weight: bolder;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -22,7 +22,6 @@ body {
 
 h1 {
         font-size: 12vh;
-        font-weight: bolder;
         text-align: center;
         background-color: #2a2a2a;
         color: whitesmoke;
@@ -43,7 +42,6 @@ h1 {
 p {
     display: flex;
         font-size: 6vh;
-        font-weight: bolder;
         text-align: center;
         font-variant-ligatures: normal;
         text-shadow: 1px 1px 15px #370b5bd6, 1px 1px 20px #370b5bd6;
